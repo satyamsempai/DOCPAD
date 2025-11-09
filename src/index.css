@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 222 47% 7%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 7%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 7%;
+
+    --primary: 180 82% 33%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 16% 47%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 20% 97%;
+    --muted-foreground: 215 14% 44%;
+
+    --accent: 24 95% 61%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217 16% 92%;
+    --input: 217 16% 92%;
+    --ring: 180 82% 33%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+    
+    /* Severity Colors for Light Mode */
+    --severity-critical: 0 84% 60%;
+    --severity-critical-bg: 0 84% 60% / 0.1;
+    --severity-high: 24 95% 53%;
+    --severity-high-bg: 24 95% 53% / 0.1;
+    --severity-moderate: 38 92% 50%;
+    --severity-moderate-bg: 38 92% 50% / 0.1;
+    --severity-low: 142 76% 36%;
+    --severity-low-bg: 142 76% 36% / 0.1;
+    --severity-normal: 142 71% 45%;
+    --severity-normal-bg: 142 71% 45% / 0.1;
+
+    --radius: 0.25rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222 47% 7%;
+    --foreground: 210 20% 98%;
+
+    --card: 222 40% 12%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 222 40% 12%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 180 82% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 16% 47%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 24 95% 61%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217 33% 20%;
+    --input: 217 33% 20%;
+    --ring: 180 82% 40%;
+    
+    /* Severity Colors */
+    --severity-critical: 0 84% 60%;
+    --severity-critical-bg: 0 84% 60% / 0.15;
+    --severity-high: 24 95% 53%;
+    --severity-high-bg: 24 95% 53% / 0.15;
+    --severity-moderate: 38 92% 50%;
+    --severity-moderate-bg: 38 92% 50% / 0.15;
+    --severity-low: 142 76% 36%;
+    --severity-low-bg: 142 76% 36% / 0.15;
+    --severity-normal: 142 71% 45%;
+    --severity-normal-bg: 142 71% 45% / 0.15;
+    
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+/* Severity Color Utilities */
+@layer utilities {
+  .severity-critical {
+    color: hsl(var(--severity-critical));
+    background-color: hsl(var(--severity-critical-bg));
+  }
+  
+  .severity-high {
+    color: hsl(var(--severity-high));
+    background-color: hsl(var(--severity-high-bg));
+  }
+  
+  .severity-moderate {
+    color: hsl(var(--severity-moderate));
+    background-color: hsl(var(--severity-moderate-bg));
+  }
+  
+  .severity-low {
+    color: hsl(var(--severity-low));
+    background-color: hsl(var(--severity-low-bg));
+  }
+  
+  .severity-normal {
+    color: hsl(var(--severity-normal));
+    background-color: hsl(var(--severity-normal-bg));
+  }
+  
+  .severity-border-critical {
+    border-color: hsl(var(--severity-critical));
+  }
+  
+  .severity-border-high {
+    border-color: hsl(var(--severity-high));
+  }
+  
+  .severity-border-moderate {
+    border-color: hsl(var(--severity-moderate));
+  }
+  
+  .severity-border-low {
+    border-color: hsl(var(--severity-low));
+  }
+  
+  .severity-border-normal {
+    border-color: hsl(var(--severity-normal));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    @apply antialiased;
+  }
+  
+  /* Smooth transitions for theme changes */
+  * {
+    transition-property: background-color, border-color, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  /* Enhanced scrollbar for dark theme */
+  .dark ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .dark ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+  
+  .dark ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted));
+    border-radius: 4px;
+  }
+  
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+}

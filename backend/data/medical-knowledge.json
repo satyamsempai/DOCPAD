@@ -1,0 +1,113 @@
+[
+  {
+    "id": "diabetes-1",
+    "category": "Metabolic Disorders",
+    "keywords": [
+      "diabetes",
+      "hba1c",
+      "fbs",
+      "glucose",
+      "blood sugar",
+      "insulin"
+    ],
+    "content": "Diabetes Management Guidelines:\n- HbA1c target: <7% for most patients, <6.5% if achievable without hypoglycemia\n- Fasting blood glucose: 80-130 mg/dL\n- Postprandial glucose: <180 mg/dL\n- Medications: Metformin (first-line), SGLT2 inhibitors, GLP-1 agonists\n- Monitoring: Daily glucose checks, quarterly HbA1c, annual eye/foot exams\n- Lifestyle: Low-carb diet, regular exercise, weight management"
+  },
+  {
+    "id": "diabetes-2",
+    "category": "Metabolic Disorders",
+    "keywords": [
+      "diabetes",
+      "complications",
+      "neuropathy",
+      "retinopathy",
+      "nephropathy"
+    ],
+    "content": "Diabetes Complications:\n- Neuropathy: Numbness, tingling, pain in extremities\n- Retinopathy: Annual eye exams, control blood pressure and glucose\n- Nephropathy: Monitor creatinine, eGFR, microalbuminuria\n- Cardiovascular: Increased risk of heart disease, stroke\n- Prevention: Tight glucose control, blood pressure <130/80, statin therapy"
+  },
+  {
+    "id": "cardiovascular-1",
+    "category": "Cardiovascular",
+    "keywords": [
+      "hypertension",
+      "blood pressure",
+      "bp",
+      "systolic",
+      "diastolic"
+    ],
+    "content": "Hypertension Management:\n- Normal: <120/80 mmHg\n- Elevated: 120-129/<80 mmHg\n- Stage 1: 130-139/80-89 mmHg\n- Stage 2: ≥140/90 mmHg\n- Medications: ACE inhibitors, ARBs, diuretics, calcium channel blockers\n- Lifestyle: DASH diet, reduce sodium, regular exercise, limit alcohol\n- Monitoring: Home BP monitoring, annual lipid panel"
+  },
+  {
+    "id": "cardiovascular-2",
+    "category": "Cardiovascular",
+    "keywords": [
+      "cholesterol",
+      "ldl",
+      "hdl",
+      "triglycerides",
+      "lipid"
+    ],
+    "content": "Lipid Management Guidelines:\n- LDL Cholesterol: <100 mg/dL (optimal), <70 mg/dL (high risk)\n- HDL Cholesterol: >40 mg/dL (men), >50 mg/dL (women)\n- Triglycerides: <150 mg/dL\n- Medications: Statins (first-line), Ezetimibe, PCSK9 inhibitors\n- Lifestyle: Mediterranean diet, omega-3 fatty acids, exercise\n- Risk factors: Age, family history, smoking, diabetes, hypertension"
+  },
+  {
+    "id": "kidney-1",
+    "category": "Renal",
+    "keywords": [
+      "creatinine",
+      "egfr",
+      "kidney",
+      "renal",
+      "bun"
+    ],
+    "content": "Kidney Function Assessment:\n- Creatinine: Normal 0.6-1.2 mg/dL (men), 0.5-1.1 mg/dL (women)\n- eGFR: >60 mL/min/1.73m² (normal), 30-59 (CKD stage 3), <30 (CKD stage 4-5)\n- BUN: 7-20 mg/dL\n- Medications to avoid: NSAIDs, certain antibiotics in renal impairment\n- Monitoring: Annual creatinine, eGFR, urine microalbumin\n- Stages of CKD require different management approaches"
+  },
+  {
+    "id": "liver-1",
+    "category": "Hepatic",
+    "keywords": [
+      "liver",
+      "alt",
+      "ast",
+      "bilirubin",
+      "alp",
+      "hepatitis"
+    ],
+    "content": "Liver Function Tests:\n- ALT: 7-56 U/L (men), 5-36 U/L (women)\n- AST: 10-40 U/L\n- Bilirubin: <1.2 mg/dL\n- ALP: 44-147 U/L\n- Elevated ALT/AST: Consider viral hepatitis, alcohol, medications, NAFLD\n- Medications: Avoid hepatotoxic drugs, consider liver-protective agents\n- Lifestyle: Avoid alcohol, maintain healthy weight, vaccination for hepatitis"
+  },
+  {
+    "id": "thyroid-1",
+    "category": "Endocrine",
+    "keywords": [
+      "thyroid",
+      "tsh",
+      "t3",
+      "t4",
+      "hypothyroidism",
+      "hyperthyroidism"
+    ],
+    "content": "Thyroid Function:\n- TSH: 0.4-4.0 mIU/L (normal), >4.0 (hypothyroidism), <0.4 (hyperthyroidism)\n- Free T4: 0.8-1.8 ng/dL\n- Free T3: 2.3-4.2 pg/mL\n- Hypothyroidism: Levothyroxine replacement, monitor TSH every 6-12 weeks\n- Hyperthyroidism: Methimazole, PTU, or radioactive iodine\n- Monitoring: TSH every 6-12 weeks until stable, then annually"
+  },
+  {
+    "id": "anemia-1",
+    "category": "Hematology",
+    "keywords": [
+      "anemia",
+      "hemoglobin",
+      "hgb",
+      "hematocrit",
+      "iron",
+      "ferritin"
+    ],
+    "content": "Anemia Evaluation:\n- Hemoglobin: >13 g/dL (men), >12 g/dL (women)\n- Hematocrit: >39% (men), >36% (women)\n- Iron deficiency: Low ferritin, high TIBC, low iron\n- B12/Folate deficiency: Macrocytic anemia, check levels\n- Treatment: Iron supplementation, B12/folate if deficient\n- Investigate: GI bleeding, nutritional deficiencies, chronic disease"
+  },
+  {
+    "id": "general-1",
+    "category": "General",
+    "keywords": [
+      "precautions",
+      "monitoring",
+      "follow-up",
+      "lifestyle"
+    ],
+    "content": "General Medical Precautions:\n- Regular monitoring of abnormal values every 3-6 months\n- Lifestyle modifications: Balanced diet, regular exercise, adequate sleep\n- Medication adherence: Take as prescribed, report side effects\n- Warning signs: Chest pain, shortness of breath, severe symptoms\n- Emergency: Seek immediate care for severe symptoms or critical values\n- Follow-up: Regular appointments with primary care and specialists as needed"
+  }
+]
